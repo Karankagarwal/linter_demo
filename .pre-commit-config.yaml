@@ -15,6 +15,8 @@ repos:
           [
               "-rn", # Only display messages
               "--rcfile=.pylintrc", # Link to your config file
+              #"--load-plugins=pylint.extensions.docparams", # Load an extension
+              "--load-plugins=pylint.extensions.docparams,pylint.extensions.docstyle"
           ]
 -   repo: local
     hooks:

@@ -9,7 +9,7 @@ class AppDemo:
         return vara + varb
 
     def docstring_google(self, varx: str) -> None:
-        """ Docstring not matching google style  """
+        """ Docstring  w not matching google style  """
         return None
 
     def unused_variable(self, varc: str):
